@@ -1,0 +1,11 @@
+# global codeception file to run tests from all apps
+include:
+    - common
+    - site
+    - api
+paths:
+    log: build/artifacts/coverage
+settings:
+    colors: true
+coverage:
+    enabled: true

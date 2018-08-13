@@ -1,0 +1,10 @@
+{
+    "name": "Yii2IwayTemplate",
+    "version": "0.0.0",
+    "description": "Базовый шаблон приложения на Yii2",
+    "title": "Базовый шаблон приложения на Yii2",
+    "template" : {
+        "withCompare": false,
+        "withGenerator": false
+    }
+}

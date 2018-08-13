@@ -1,0 +1,7 @@
+class_name: UnitTester
+bootstrap: false
+modules:
+    enabled:
+        - Yii2:
+            part: [db, orm, email, fixtures]
+            cleanup: true
