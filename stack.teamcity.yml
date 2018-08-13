@@ -51,7 +51,7 @@ services:
       - 9000
     environment:
       PHP_IDE_CONFIG: serverName=local
-      XDEBUG_CONFIG: "remote_host={{IP_ADDRESS}}"
+      XDEBUG_CONFIG: "remote_host=192.168.1.105"
     volumes:
       # Файлы
       - ./:/var/www/yii2-iway-template
@@ -69,7 +69,7 @@ services:
 #    restart: always
 #    environment:
 #      PHP_IDE_CONFIG: serverName=local
-#      XDEBUG_CONFIG: "remote_host={{IP_ADDRESS}}"
+#      XDEBUG_CONFIG: "remote_host=192.168.1.105"
 #    volumes:
 #      # Файлы
 #      - ./:/var/www/yii2-iway-template
