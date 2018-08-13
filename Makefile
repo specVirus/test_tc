@@ -13,6 +13,9 @@ files-init:
 docker-stack-deploy:
 	./docker/installScripts/create_stack.sh $(shell pwd)
 
+docker-stack-deploy-teamcity:
+	sudo docker-compose -f stack.teamcity.yml up -d
+
 docker-terminal:
 	sudo docker exec -ti $(shell sudo docker ps -f "name=yii2iwaytemplate_php_1" --format "{{.Names}}") /bin/bash
 

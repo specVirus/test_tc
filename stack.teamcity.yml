@@ -1,0 +1,104 @@
+version: "3.3"
+
+services:
+
+## PostreSQL #######################################################################################
+  postgres:
+    image: iwaydev/yii2-iway-template-postgres:latest
+    restart: always
+    volumes:
+      - ./docker/db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: root
+    ports:
+      - 5433:5432
+
+## Nginx ###########################################################################################
+  nginx:
+    image: nginx:1.13.3
+    restart: always
+    networks:
+        default:
+            aliases:
+            - yii2-iway-template.local
+            - api.yii2-iway-template.local
+            - site.yii2-iway-template.local
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      # Конфиг
+      - ./docker/conf/nginx.conf:/etc/nginx/conf.d/nginx.conf
+      # Логи
+      - ./docker/logs:/var/log/nginx
+      - ./docker/logs:/var/log/xdebug
+      # Файлы
+      - ./:/var/www/yii2-iway-template
+    environment:
+      NGINX_HOST: yii2-iway-template.local
+      NGINX_HOST: site.yii2-iway-template.local
+      NGINX_HOST: api.yii2-iway-template.local
+      NGINX_PORT: 80
+      NGINX_PORT: 443
+    depends_on:
+      - php
+
+## PHP #############################################################################################
+  php:
+    image: iwaydev/yii2-iway-template-php-fpm:latest
+    restart: always
+    ports:
+      - 9000
+    environment:
+      PHP_IDE_CONFIG: serverName=local
+      XDEBUG_CONFIG: "remote_host={{IP_ADDRESS}}"
+    volumes:
+      # Файлы
+      - ./:/var/www/yii2-iway-template
+      - ./docker/logs:/var/log/xdebug
+      # Конфиг
+      - ./docker/conf/php.ini:/usr/local/etc/php/php.ini
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+
+## PHP daemon example ##############################################################################
+#  php-simple-daemon:
+#    image: iwaydev/yii2-iway-template-php-daemon-sample:latest
+#    restart: always
+#    environment:
+#      PHP_IDE_CONFIG: serverName=local
+#      XDEBUG_CONFIG: "remote_host={{IP_ADDRESS}}"
+#    volumes:
+#      # Файлы
+#      - ./:/var/www/yii2-iway-template
+#      - ./docker/logs:/var/log/xdebug
+#      # Конфиг
+#      - ./docker/conf/php.ini:/usr/local/etc/php/php.ini
+#    depends_on:
+#      - postgres
+#      - redis
+#      - rabbitmq
+#    deploy:
+#      replicas: 10
+
+## Redis ###########################################################################################
+  redis:
+    image: redis:3.2.9
+    restart: always
+    ports:
+      - 6380:6379
+
+## Rabbit ##########################################################################################
+  rabbitmq:
+    image: rabbitmq:3.6.10
+    restart: always
+    volumes:
+      - ./docker/rabbitdb:/var/lib/rabbitmq
+      - ./docker/rabbitmq.enabled_plugins:/etc/rabbitmq/enabled_plugins
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
+    ports:
+      - 5673:5672
