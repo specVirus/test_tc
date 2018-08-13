@@ -5,12 +5,6 @@ COLOR_RED='\033[0;31m'
 COLOR_YELLOW='\033[0;33m'
 COLOR_RESET='\033[0m'
 
-# Проверка на root'а
-if [ $(id -u) = 0 ]; then
-  echo "${COLOR_RED}Вы root. Выполните команду не от root'а.${COLOR_RESET}"
-  exit
-fi
-
 WORK_DIR=$1
 USER=$(whoami)
 HOST_IP=$(hostname  -I | cut -f1 -d' ')
