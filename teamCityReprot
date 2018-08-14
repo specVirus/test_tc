@@ -1,2 +1,2 @@
 ##teamcity[testSuiteStarted name='suiteName']
-##teamcity[testSuiteFinished name='suiteName']
+##teamcity[testSuiteFinished name='suit2eName']
