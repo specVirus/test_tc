@@ -1,0 +1,2726 @@
+E...EE............EE.......E..EE.EEEE.E.....EEEEEEEEE..EEEEE  60 / 253 (24%)
+E.......EE.EEEE.EEEEEEEEEE..EE.EEEEEEEEEEEEEEEE...EEE.....EE 120 / 253 (47%)
+.EEEE..........EEE....EEEE...EEEEEEEEE...EEEE.........E..EEE 180 / 253 (71%)
+E..E.E.EEE.EEE.....E..EE.......EEEEEEEEE.........EEEE...EEEE 240 / 253 (95%)
+EEEEEEEEE.EEE
+
+
+FILE: /var/www/trans-next-gen/common/tests/_support/UnitTester.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 2 | ERROR | [x] There must be one blank line after the namespace
+   |       |     declaration
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/fixtures/UserFixture.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 9 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/filters/RbacAccessFilter.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 26 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 26 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/models/JwtUser.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 38 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 42 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/models/AirportModel.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 39 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 39 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/mail/layouts/text.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 12 | ERROR | [x] A closing tag is not permitted at the end of a PHP
+    |       |     file
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/lib/rabbitmq/Configuration.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 97 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/rbac/UserGroupRule.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/helpers/DocumentHelper.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 159 | ERROR | [ ] Method name "DocumentHelper::split_num" is not in
+     |       |     camel caps format
+ 215 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/helpers/Route.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 14 | ERROR | [ ] Method name "Route::GetCurrentFullRoute" is not in
+    |       |     camel caps format
+ 33 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 33 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/helpers/ArrayHelper.php
+----------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 16 | ERROR | [x] Whitespace found at end of line
+ 74 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 75 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 78 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 82 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 89 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 7 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/common/helpers/MhtFileMaker.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  55 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "true" but found "TRUE"
+  69 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "true" but found "TRUE"
+ 134 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "true" but found "TRUE"
+ 160 | ERROR | [x] Space before opening parenthesis of function call
+     |       |     prohibited
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/_support/ApiTester.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  93 | ERROR | [x] No space found after comma in function call
+ 217 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "null" but found "NULL"
+ 225 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "null" but found "NULL"
+ 226 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+     |       |     "null" but found "NULL"
+ 234 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/functional/_bootstrap.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 16 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/AbstractTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 18 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/prices/IndexTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 52 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/orders/CreateTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 55 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/trans-next-gen/api/tests/api/orders/RecommendedTimeTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 25 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/orders/UpdateTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 62 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/orders/CheckTimeTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 26 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/places/FindTest.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 49 | ERROR | [x] Function closing brace must go on the next line
+    |       |     following the body; found 1 blank lines before
+    |       |     brace
+ 50 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/tests/api/places/ViewTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+ 22 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/TransRpcComponent.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 185 | ERROR | [ ] Method name "TransRpcComponent::ApproveTrip" is
+     |       |     not in camel caps format
+ 495 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/GeoComponentAbstract.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 75 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/GoogleGeoComponent.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 128 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     newline
+ 134 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/ApiFormatterComponent.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+   9 | ERROR | [x] There must be one blank line after the namespace
+     |       |     declaration
+ 131 | ERROR | [x] Line indented incorrectly; expected 16 spaces,
+     |       |     found 17
+ 133 | ERROR | [x] Line indented incorrectly; expected 20 spaces,
+     |       |     found 21
+ 135 | ERROR | [x] Line indented incorrectly; expected 20 spaces,
+     |       |     found 21
+ 136 | ERROR | [x] Closing brace indented incorrectly; expected 17
+     |       |     spaces, found 16
+ 157 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/YandexGeoComponent.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 54 | ERROR | [x] Expected 1 space after closing parenthesis; found
+    |       |     newline
+ 60 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/components/ErrorHandler.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 31 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 31 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/services/PlacesService.php
+----------------------------------------------------------------------
+FOUND 26 ERRORS AFFECTING 21 LINES
+----------------------------------------------------------------------
+  84 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  87 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 108 | ERROR | [x] Expected 1 space after closing brace; 0 found
+ 108 | ERROR | [x] Expected 1 space after CATCH keyword; 0 found
+ 126 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 127 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 132 | ERROR | [x] Expected 1 space after closing brace; 0 found
+ 132 | ERROR | [x] Expected 1 space after CATCH keyword; 0 found
+ 147 | ERROR | [x] Opening brace should be on a new line
+ 148 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 148 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 152 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 152 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 156 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 173 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 174 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 188 | ERROR | [x] Opening brace should be on a new line
+ 192 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 195 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 205 | ERROR | [x] Expected 1 space after closing brace; 0 found
+ 205 | ERROR | [x] Expected 1 space after CATCH keyword; 0 found
+ 216 | ERROR | [x] Opening brace should be on a new line
+ 220 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 223 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 230 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 26 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/services/OrderService.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+   9 | ERROR | [x] There must be one blank line after the namespace
+     |       |     declaration
+ 128 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 150 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     newline
+ 199 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 199 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 202 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 202 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 205 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 205 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 222 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 271 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 271 | ERROR | [x] The closing brace for the class must go on the
+     |       |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 12 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/CancellationForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/CheckTimeForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 45 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/StartLocationForm.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 80 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/TripForm.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 114 | ERROR | [x] Function closing brace must go on the next line
+     |       |     following the body; found 1 blank lines before
+     |       |     brace
+ 177 | ERROR | [x] Whitespace found at end of line
+ 239 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 259 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/PassengerForm.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 44 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/RecommendedTimeForm.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+ 16 | ERROR | [x] Whitespace found at end of line
+ 49 | ERROR | [x] Whitespace found at end of line
+ 73 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 73 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/GetTripsForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 76 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/LocationForm.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 65 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 69 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/FinishLocationForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 51 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/AdditionalLocationForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 42 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/CancelForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/CreateOrderForm.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 71 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/GetPriceIataForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 41 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/forms/PlaceSearchForm.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 37 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 37 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/versions/v1/Module.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 34 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...trans-next-gen/api/versions/v1/controllers/DefaultController.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 18 | ERROR | [x] Whitespace found at end of line
+ 29 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 29 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../trans-next-gen/api/versions/v1/controllers/PlacesController.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+   9 | ERROR | [x] There must be one blank line after the namespace
+     |       |     declaration
+ 589 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 589 | ERROR | [x] The closing brace for the class must go on the
+     |       |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../trans-next-gen/api/versions/v1/controllers/OrdersController.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+    9 | ERROR | [x] There must be one blank line after the namespace
+      |       |     declaration
+ 1250 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ans-next-gen/api/versions/v1/controllers/DocumentsController.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+   2 | ERROR | [x] There must be one blank line after the namespace
+     |       |     declaration
+ 160 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../trans-next-gen/api/versions/v1/controllers/PricesController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 445 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...rans-next-gen/api/versions/v1/controllers/PartnersController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 80 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...w/trans-next-gen/api/versions/airoclub/services/OrderService.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 12 | ERROR | [x] There must be one blank line after the last USE
+    |       |     statement; 2 found;
+ 67 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 67 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/versions/airoclub/forms/TripForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 63 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/trans-next-gen/api/versions/airoclub/forms/CustomerForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 37 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...w/trans-next-gen/api/versions/airoclub/forms/CreateOrderForm.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 41 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/api/versions/airoclub/Module.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 18 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-next-gen/api/versions/airoclub/controllers/OrdersController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 519 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...s/fixtures/data_for_notification/DataForNotificationsFixture.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 12 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...e/tests/fixtures/data_for_notification/DataForVoucherFixture.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 13 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...te/tests/fixtures/data_for_notification/DataForNoticeFixture.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 12 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../site/tests/fixtures/data_for_notification/DataForActFixture.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 12 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/tests/unit/AbstractTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 19 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ite/tests/unit/services/notification/PrintVoucherMethodsTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 204 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...n/site/tests/unit/services/notification/DoVoucherMethodsTest.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 336 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 345 | ERROR | [x] The closing brace for the class must go on the
+     |       |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ite/tests/unit/services/notification/CancellationMethodsTest.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 96 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/tests/functional/_bootstrap.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 16 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/tests/acceptance/_bootstrap.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 16 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...site/tests/_data/data_for_notification/data_for_notification.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 17 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...t-gen/site/tests/_data/data_for_notification/data_for_notice.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 17 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...next-gen/site/tests/_data/data_for_notification/data_for_act.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 17 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-gen/site/tests/_data/data_for_notification/data_for_voucher.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 9 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/services/VoucherService.php
+----------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  97 | ERROR | [x] Inline control structures are not allowed
+ 100 | ERROR | [x] Inline control structures are not allowed
+ 145 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 155 | ERROR | [x] Inline control structures are not allowed
+ 170 | ERROR | [x] Inline control structures are not allowed
+ 221 | ERROR | [x] Inline control structures are not allowed
+ 236 | ERROR | [x] Inline control structures are not allowed
+ 414 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/services/NotificationService.php
+----------------------------------------------------------------------
+FOUND 27 ERRORS AFFECTING 27 LINES
+----------------------------------------------------------------------
+   10 | ERROR | [x] There must be one blank line after the last USE
+      |       |     statement; 2 found;
+  201 | ERROR | [x] Blank line found at start of control structure
+  286 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  370 | ERROR | [x] Blank line found at start of control structure
+  428 | ERROR | [x] Blank line found at start of control structure
+  433 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  512 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+  550 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+  557 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  580 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+  583 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  697 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  703 | ERROR | [x] Blank line found at end of control structure
+  707 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  744 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+  745 | ERROR | [x] Blank line found at start of control structure
+  748 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  769 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  796 | ERROR | [x] Blank line found at start of control structure
+  814 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  908 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  968 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+  970 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+      |       |     found
+  983 | ERROR | [x] Inline control structures are not allowed
+ 1008 | ERROR | [x] The closing parenthesis and the opening brace of
+      |       |     a multi-line function declaration must be on the
+      |       |     same line
+ 1031 | ERROR | [x] Blank line found at end of control structure
+ 1106 | ERROR | [x] Inline control structures are not allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 27 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/services/DownloadService.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  9 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 84 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ext-gen/site/views/notification/printVoucher/printPartner/de.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 37 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ext-gen/site/views/notification/printVoucher/printPartner/en.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ext-gen/site/views/notification/printVoucher/printPartner/zh.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+ 31 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 38 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ext-gen/site/views/notification/printVoucher/printPartner/ru.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 59 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 61 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-next-gen/site/views/notification/printVoucher/printBuyer/ru.php
+----------------------------------------------------------------------
+FOUND 40 ERRORS AFFECTING 40 LINES
+----------------------------------------------------------------------
+ 34 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+    |       |     "true" but found "TRUE"
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 36 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 37 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 38 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 59 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 60 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 61 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 63 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 64 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 65 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 66 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 67 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 69 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 70 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 72 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 74 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 76 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 78 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 80 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 82 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 40 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/site/views/notification/cancellation/de.php
+----------------------------------------------------------------------
+FOUND 25 ERRORS AFFECTING 24 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Whitespace found at end of line
+ 17 | ERROR | [x] Whitespace found at end of line
+ 18 | ERROR | [x] Whitespace found at end of line
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 25 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 28 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 31 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 36 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 25 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/site/views/notification/cancellation/en.php
+----------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 29 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/site/views/notification/cancellation/zh.php
+----------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  7 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  9 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 11 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 16 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 17 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 18 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 25 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 26 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/site/views/notification/cancellation/ru.php
+----------------------------------------------------------------------
+FOUND 28 ERRORS AFFECTING 28 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 29 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 28 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/notification/doVoucher/de.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 61 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/notification/doVoucher/en.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 61 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/notification/doVoucher/zh.php
+----------------------------------------------------------------------
+FOUND 15 ERRORS AFFECTING 14 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 15 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/notification/doVoucher/ru.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 63 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/voucher/instructions.php
+----------------------------------------------------------------------
+FOUND 19 ERRORS AFFECTING 15 LINES
+----------------------------------------------------------------------
+  10 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  10 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  80 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  81 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 124 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 125 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 125 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 212 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 213 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 267 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 286 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 28
+ 286 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 350 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 351 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 427 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 437 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 438 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 438 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 447 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 19 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ar/www/trans-next-gen/site/views/site/voucher/supportContact.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+ 10 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+    |       |     found
+ 13 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 15 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 24 | ERROR | [x] Line indented incorrectly; expected 12 spaces,
+    |       |     found 16
+ 31 | ERROR | [x] Inline control structures are not allowed
+ 36 | ERROR | [x] Inline control structures are not allowed
+ 39 | ERROR | [x] Line indented incorrectly; expected 12 spaces,
+    |       |     found 16
+ 42 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 48 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ar/www/trans-next-gen/site/views/site/voucher/passengerBlock.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [x] There must be one blank line after the last USE
+    |       |     statement; 0 found;
+ 21 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 36 | ERROR | [x] Inline control structures are not allowed
+ 47 | ERROR | [x] Inline control structures are not allowed
+ 50 | ERROR | [x] Inline control structures are not allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...var/www/trans-next-gen/site/views/site/voucher/blockInfoTrip.php
+----------------------------------------------------------------------
+FOUND 26 ERRORS AFFECTING 25 LINES
+----------------------------------------------------------------------
+  16 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  44 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  80 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 116 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 165 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 232 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 243 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 28
+ 243 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 248 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 255 | ERROR | [x] Inline control structures are not allowed
+ 324 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 340 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 365 | ERROR | [x] Inline control structures are not allowed
+ 397 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 413 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 420 | ERROR | [x] Inline control structures are not allowed
+ 427 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 16
+ 442 | ERROR | [x] Inline control structures are not allowed
+ 449 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 16
+ 478 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 501 | ERROR | [x] Inline control structures are not allowed
+ 502 | ERROR | [x] Inline control structures are not allowed
+ 515 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 24
+ 529 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 595 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 615 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 26 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/act/services_trips.php
+----------------------------------------------------------------------
+FOUND 19 ERRORS AFFECTING 19 LINES
+----------------------------------------------------------------------
+  38 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  73 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  86 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 106 | ERROR | [x] Each PHP statement must be on a line by itself
+ 123 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 136 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 173 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 178 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 179 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 180 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 181 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 182 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 8 spaces but found 12
+ 185 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 238 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 243 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 244 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 245 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 246 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 16
+ 247 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 8 spaces but found 12
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 19 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/site/views/site/voucherDoc/instructions.php
+----------------------------------------------------------------------
+FOUND 18 ERRORS AFFECTING 18 LINES
+----------------------------------------------------------------------
+  10 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  41 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  42 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  53 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+  70 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+  82 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+  83 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 107 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 108 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 135 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 166 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 167 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 178 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 195 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 227 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 237 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+ 238 | ERROR | [x] Expected 1 space after closing parenthesis; found
+     |       |     0
+ 247 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 18 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...www/trans-next-gen/site/views/site/voucherDoc/supportContact.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+ 10 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+    |       |     found
+ 13 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 15 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 24 | ERROR | [x] Line indented incorrectly; expected 12 spaces,
+    |       |     found 16
+ 31 | ERROR | [x] Inline control structures are not allowed
+ 36 | ERROR | [x] Inline control structures are not allowed
+ 39 | ERROR | [x] Line indented incorrectly; expected 12 spaces,
+    |       |     found 16
+ 42 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 48 | ERROR | [x] Expected 1 space after ELSE keyword; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...www/trans-next-gen/site/views/site/voucherDoc/passengerBlock.php
+----------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 5 LINES
+----------------------------------------------------------------------
+  2 | ERROR | [x] There must be one blank line after the last USE
+    |       |     statement; 0 found;
+ 16 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 16 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 16 | ERROR | [x] Newline required after opening brace
+ 16 | ERROR | [x] Closing brace must be on a line by itself
+ 25 | ERROR | [x] Inline control structures are not allowed
+ 31 | ERROR | [x] Inline control structures are not allowed
+ 32 | ERROR | [x] Inline control structures are not allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/trans-next-gen/site/views/site/voucherDoc/blockInfoTrip.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AFFECTING 21 LINES
+----------------------------------------------------------------------
+ 120 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 187 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 198 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 28
+ 198 | ERROR | [x] Closing parenthesis of a multi-line function call
+     |       |     must be on a line by itself
+ 203 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 210 | ERROR | [x] Inline control structures are not allowed
+ 279 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 295 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 320 | ERROR | [x] Inline control structures are not allowed
+ 352 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 368 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 375 | ERROR | [x] Inline control structures are not allowed
+ 382 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 16
+ 397 | ERROR | [x] Inline control structures are not allowed
+ 404 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 16
+ 433 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 456 | ERROR | [x] Inline control structures are not allowed
+ 457 | ERROR | [x] Inline control structures are not allowed
+ 470 | ERROR | [x] Line indented incorrectly; expected 0 spaces,
+     |       |     found 24
+ 484 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 550 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 570 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 22 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/voucher.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+  52 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 28
+  53 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 28
+  57 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  79 | ERROR | [x] Line indented incorrectly; expected 4 spaces,
+     |       |     found 8
+  82 | ERROR | [x] Inline control structures are not allowed
+ 205 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 16 spaces but found 12
+ 206 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 16 spaces but found 12
+ 210 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 16 spaces but found 12
+ 211 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 12 spaces but found 8
+ 213 | ERROR | [x] Closing brace indented incorrectly; expected 8
+     |       |     spaces, found 4
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/docVoucher.php
+----------------------------------------------------------------------
+FOUND 21 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  51 | ERROR | [x] Empty lines are not allowed in multi-line function
+     |       |     calls
+  55 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  80 | ERROR | [x] Inline control structures are not allowed
+  80 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 190 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 16
+ 191 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 16
+ 195 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 16
+ 196 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 16 spaces but found 12
+ 204 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 24
+ 205 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 24
+ 211 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 16 spaces but found 20
+ 227 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 12
+ 228 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 12
+ 229 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 16
+ 230 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 16
+ 231 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 16
+ 232 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 24 spaces but found 12
+ 233 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 20 spaces but found 8
+ 237 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 8 spaces but found 12
+ 238 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 8 spaces but found 12
+ 242 | ERROR | [x] Multi-line function call not indented correctly;
+     |       |     expected 4 spaces but found 8
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 21 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/act.php
+----------------------------------------------------------------------
+FOUND 15 ERRORS AFFECTING 14 LINES
+----------------------------------------------------------------------
+ 17 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 18 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 22 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 8 spaces but found 12
+ 29 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 30 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 33 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 38 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 39 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 43 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 49 | ERROR | [x] Line indented incorrectly; expected 16 spaces,
+    |       |     found 20
+ 49 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+    |       |     found
+ 54 | ERROR | [x] Line indented incorrectly; expected 16 spaces,
+    |       |     found 20
+ 61 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 28 spaces but found 32
+ 62 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 28 spaces but found 32
+ 67 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 24 spaces but found 28
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 15 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/notice/notice.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+ 44 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 45 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 49 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 54 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 55 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 62 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 67 | ERROR | [x] Inline control structures are not allowed
+ 73 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 28 spaces but found 32
+ 74 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 28 spaces but found 32
+ 79 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 24 spaces but found 28
+ 95 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/site/notice/invoice.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 12 LINES
+----------------------------------------------------------------------
+ 18 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 19 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 23 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 8 spaces but found 12
+ 31 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 32 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 36 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 42 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 16 spaces but found 20
+ 47 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+ 52 | ERROR | [x] Inline control structures are not allowed
+ 57 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 24 spaces but found 28
+ 58 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 24 spaces but found 28
+ 63 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 20 spaces but found 24
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 12 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/site/views/site/notice/block_notice/footer.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 33 | ERROR | [x] Multi-line function call not indented correctly;
+    |       |     expected 12 spaces but found 16
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-next-gen/site/views/site/notice/block_notice/services_trips.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  39 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  80 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+  83 | ERROR | [x] Blank line found at start of control structure
+  96 | ERROR | [x] Each PHP statement must be on a line by itself
+ 124 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 127 | ERROR | [x] Blank line found at start of control structure
+ 168 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 171 | ERROR | [x] Blank line found at start of control structure
+ 227 | ERROR | [x] Expected 1 blank line at end of file; 2 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 9 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...t-gen/site/views/site/notice/block_notice/head_table_service.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 21 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...next-gen/site/views/site/notice/block_invoice/services_trips.php
+----------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------
+  42 | ERROR | [x] Blank line found at start of control structure
+  81 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 124 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 156 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 170 | ERROR | [x] Expected 0 spaces after opening bracket; newline
+     |       |     found
+ 234 | ERROR | [x] Expected 1 blank line at end of file; 2 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 6 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/layouts/main.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 11 | ERROR | [x] There must be one blank line after the last USE
+    |       |     statement; 0 found;
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/views/download/notDocument.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 6 | ERROR | [x] Multi-line function call not indented correctly;
+   |       |     expected 8 spaces but found 12
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/controllers/DownloadController.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  19 | ERROR | [x] There must be one blank line after the last USE
+     |       |     statement; 2 found;
+ 144 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 144 | ERROR | [x] The closing brace for the class must go on the
+     |       |     next line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/site/controllers/SiteController.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 251 | ERROR | [x] Each PHP statement must be on a line by itself
+ 253 | ERROR | [x] Inline control structures are not allowed
+ 295 | ERROR | [x] Inline control structures are not allowed
+ 336 | ERROR | [x] Inline control structures are not allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../m180524_103105_add_flag_is_sending_in_data_for_notification.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 5 | ERROR | Each class must be in a namespace of at least one level
+   |       | (a top-level vendor name)
+ 5 | ERROR | Class name
+   |       | "m180524_103105_add_flag_is_sending_in_data_for_notification"
+   |       | is not in camel caps format
+----------------------------------------------------------------------
+
+
+FILE: ...console/migrations/m180207_082542_add_table_data_for_voucher.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 5 | ERROR | Each class must be in a namespace of at least one level
+   |       | (a top-level vendor name)
+ 5 | ERROR | Class name "m180207_082542_add_table_data_for_voucher"
+   |       | is not in camel caps format
+----------------------------------------------------------------------
+
+
+FILE: ...gen/console/migrations/m180228_064032_add_table_data_for_act.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+  5 | ERROR | [ ] Class name "m180228_064032_add_table_data_for_act"
+    |       |     is not in camel caps format
+ 28 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...t-gen/console/migrations/m180206_064505_create_airport_table.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 8 | ERROR | Each class must be in a namespace of at least one level
+   |       | (a top-level vendor name)
+ 8 | ERROR | Class name "m180206_064505_create_airport_table" is not
+   |       | in camel caps format
+----------------------------------------------------------------------
+
+
+FILE: .../console/migrations/m180221_095509_add_table_data_for_notice.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [ ] Each class must be in a namespace of at least one
+    |       |     level (a top-level vendor name)
+  5 | ERROR | [ ] Class name
+    |       |     "m180221_095509_add_table_data_for_notice" is not
+    |       |     in camel caps format
+ 28 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...le/migrations/m180305_053140_add_table_data_for_notification.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 5 | ERROR | Each class must be in a namespace of at least one level
+   |       | (a top-level vendor name)
+ 5 | ERROR | Class name
+   |       | "m180305_053140_add_table_data_for_notification" is not
+   |       | in camel caps format
+----------------------------------------------------------------------
+
+
+FILE: ...ar/www/trans-next-gen/console/components/DataInsertComponent.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 74 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-gen/console/views/notification/printVoucher/printPartner/de.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 37 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-gen/console/views/notification/printVoucher/printPartner/en.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-gen/console/views/notification/printVoucher/printPartner/zh.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+ 31 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 38 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 11 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...-gen/console/views/notification/printVoucher/printPartner/ru.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 59 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 61 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 10 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...xt-gen/console/views/notification/printVoucher/printBuyer/ru.php
+----------------------------------------------------------------------
+FOUND 40 ERRORS AFFECTING 40 LINES
+----------------------------------------------------------------------
+ 34 | ERROR | [x] TRUE, FALSE and NULL must be lowercase; expected
+    |       |     "true" but found "TRUE"
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 36 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 37 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 38 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 51 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 53 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 58 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 59 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 60 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 61 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 63 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 64 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 65 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 66 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 67 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 69 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 70 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 72 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 74 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 76 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 78 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 80 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 82 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 40 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/console/views/notification/cancellation/de.php
+----------------------------------------------------------------------
+FOUND 25 ERRORS AFFECTING 24 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Whitespace found at end of line
+ 17 | ERROR | [x] Whitespace found at end of line
+ 18 | ERROR | [x] Whitespace found at end of line
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 25 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 28 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 31 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 36 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 40 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 25 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/console/views/notification/cancellation/en.php
+----------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 29 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/console/views/notification/cancellation/zh.php
+----------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  5 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  7 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  9 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 11 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 16 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 17 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 18 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 25 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 26 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/console/views/notification/cancellation/ru.php
+----------------------------------------------------------------------
+FOUND 28 ERRORS AFFECTING 28 LINES
+----------------------------------------------------------------------
+  6 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+  8 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 10 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 12 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 13 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 14 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 15 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 19 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 20 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 21 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 22 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 23 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 24 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 27 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 29 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 30 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 34 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 43 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 45 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 47 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 49 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 28 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/console/views/notification/doVoucher/de.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 61 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/console/views/notification/doVoucher/ch.php
+----------------------------------------------------------------------
+FOUND 15 ERRORS AFFECTING 14 LINES
+----------------------------------------------------------------------
+ 32 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 35 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 39 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 41 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 42 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 44 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 46 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 48 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 50 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 52 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 54 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 55 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+ 56 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+ 57 | ERROR | [x] Spaces must be used to indent lines; tabs are not
+    |       |     allowed
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 15 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/console/views/notification/doVoucher/en.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 61 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...r/www/trans-next-gen/console/views/notification/doVoucher/ru.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 63 | ERROR | [x] Expected 1 space after closing parenthesis; found 0
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...trans-next-gen/console/models/dataSource/DataSourceInterface.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 18 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: .../www/trans-next-gen/console/models/dataSource/FileDataSource.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 36 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...var/www/trans-next-gen/console/controllers/TestApiController.php
+----------------------------------------------------------------------
+FOUND 20 ERRORS AFFECTING 20 LINES
+----------------------------------------------------------------------
+  50 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  55 | ERROR | [x] Expected 1 space after WHILE keyword; 0 found
+  56 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+  57 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  60 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  72 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+  76 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 105 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 108 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 130 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 146 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 151 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 157 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 164 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 179 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 195 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 200 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 206 | ERROR | [x] Expected 1 space after IF keyword; 0 found
+ 213 | ERROR | [x] Expected 1 space after FOREACH keyword; 0 found
+ 232 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 20 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/console/controllers/RbacController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 44 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...rans-next-gen/console/controllers/SendNotificationController.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 30 | ERROR | [x] Inline control structures are not allowed
+ 38 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: /var/www/trans-next-gen/console/controllers/DataController.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 33 | ERROR | [x] Expected 1 newline at end of file; 0 found
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+
+FILE: ...ww/trans-next-gen/console/controllers/SampleDaemonController.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  3 | ERROR | [x] There must be one blank line after the namespace
+    |       |     declaration
+ 14 | ERROR | [x] Whitespace found at end of line
+ 19 | ERROR | [x] Function closing brace must go on the next line
+    |       |     following the body; found 1 blank lines before
+    |       |     brace
+ 21 | ERROR | [x] Expected 1 newline at end of file; 0 found
+ 21 | ERROR | [x] The closing brace for the class must go on the next
+    |       |     line after the body
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 8.43 secs; Memory: 26Mb
+
