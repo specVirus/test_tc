@@ -1,2 +1,4 @@
-##teamcity[testSuiteStarted name='suiteName']
-##teamcity[testSuiteFinished name='suit2eName']
+##teamcity[testStarted name='className.testName']
+##teamcity[testStdOut name='className.testName' out='text']
+##teamcity[testStdErr name='className.testName' out='error text']
+##teamcity[testFinished name='className.testName' duration='50']
