@@ -1,9 +1,3 @@
-E...EE............EE.......E..EE.EEEE.E.....EEEEEEEEE..EEEEE  60 / 260 (23%)
-E.......EE.EEEE.EEEEEEEEEE..EE.EEEEEEEEEEEEEEEE...EEEE.E.... 120 / 260 (46%)
-..EE.EEEEEEEEEEEEEE..........EEE....EEEE...EEEEEEEEE.EEEE... 180 / 260 (69%)
-....E..EEEE.EEEEE.EEE.....E..EE.......EEEEEEEEE.........EEEE 240 / 260 (92%)
-...EEEEEEEEEEEEE.EEE
-
 ##teamcity[testSuiteStarted name='PHPCS']
 ##teamcity[testSuiteStarted name='/var/www/trans-next-gen/common/tests/_support/UnitTester.php']
 ##teamcity[testStarted name='/var/www/trans-next-gen/common/tests/_support/UnitTester.php:2:1']
