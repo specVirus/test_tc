@@ -52,6 +52,7 @@ services:
     volumes:
       # Файлы
       - ./:/var/www/yii2-iway-template
+      - ./api:/var/www/yii2-iway-template/api
       - ./docker/logs:/var/log/xdebug
       # Конфиг
       - ./docker/conf/php.ini:/usr/local/etc/php/php.ini
