@@ -137,7 +137,7 @@ phpcs:
 
 phpcs-xml:
 	./vendor/squizlabs/php_codesniffer/bin/phpcs --config-set ignore_errors_on_exit 1
-	./vendor/squizlabs/php_codesniffer/bin/phpcs  --report-xml --extensions=php --standard=PSR2 --error-severity=1 --warning-severity=0 ./common ./api ./site ./console > $(CURDIR)/build/artifacts/phpcs.xml
+	./vendor/squizlabs/php_codesniffer/bin/phpcs  --report-checkstyle --extensions=php --standard=PSR2 --error-severity=1 --warning-severity=0 ./common ./api ./site ./console > $(CURDIR)/build/artifacts/phpcs.xml
 
 #Анализатор качества кода
 phpmd:
