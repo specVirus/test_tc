@@ -135,9 +135,16 @@ phpcs:
 	./vendor/squizlabs/php_codesniffer/bin/phpcs --config-set ignore_errors_on_exit 1
 	./vendor/squizlabs/php_codesniffer/bin/phpcs -p --extensions=php --standard=PSR2 --error-severity=1 --warning-severity=0 ./common ./api ./site ./console > $(CURDIR)/build/artifacts/phpcs.txt
 
+phpcs-xml:
+	./vendor/squizlabs/php_codesniffer/bin/phpcs --config-set ignore_errors_on_exit 1
+	./vendor/squizlabs/php_codesniffer/bin/phpcs  --report-xml --extensions=php --standard=PSR2 --error-severity=1 --warning-severity=0 ./common ./api ./site ./console > $(CURDIR)/build/artifacts/phpcs.xml
+
 #Анализатор качества кода
 phpmd:
 	php $(CURDIR)/vendor/phpmd/phpmd/src/bin/phpmd --ignore-violations-on-exit $(CURDIR)/common,$(CURDIR)/api,$(CURDIR)/site,$(CURDIR)/console html codesize,cleancode,naming,unusedcode,design > $(CURDIR)/build/artifacts/phpmd.html
+
+phpmd-xml:
+	php $(CURDIR)/vendor/phpmd/phpmd/src/bin/phpmd --ignore-violations-on-exit $(CURDIR)/common,$(CURDIR)/api,$(CURDIR)/site,$(CURDIR)/console xml codesize,cleancode,naming,unusedcode,design > $(CURDIR)/build/artifacts/phpmd.xml
 
 #Сгенерировать swagger.json для точки входа API
 phpmetrics:
