@@ -155,6 +155,9 @@ codecept-run:
 codecept-run-coverage-html:
 	$(CURDIR)/vendor/bin/codecept run --coverage-html
 
+codecept-run-coverage-xml:
+	$(CURDIR)/vendor/bin/codecept run --coverage-xml
+
 build-local: yii-init-dev composer-install-dev yii-rbac-init yii-migrate yii-test-migrate yii-cache-flush-all rm-assets swagger phpcs phpmd phpmetrics
 build-dev: git-reset git-pull-develop yii-init-dev yii-rbac-init composer-install-dev yii-migrate yii-test-migrate yii-cache-flush-all rm-assets swagger phpcs phpmd phpmetrics codecept-build codecept-run
 build-prod: git-reset git-pull-master yii-init-dev yii-rbac-init composer-install yii-migrate yii-cache-flush-all rm-assets

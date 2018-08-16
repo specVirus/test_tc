@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c55a4684f7094e591b572965b8732cda",
+    "content-hash": "e64ec9917166295889c1d2f11400502d",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1650,6 +1650,49 @@
                 "parsing"
             ],
             "time": "2013-01-29T21:29:14+00:00"
+        },
+        {
+            "name": "micheh/teamcity-clover",
+            "version": "0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micheh/teamcity-clover.git",
+                "reference": "7fcd92fcfbabacc5cffa156de2caea5a6ca32989"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micheh/teamcity-clover/zipball/7fcd92fcfbabacc5cffa156de2caea5a6ca32989",
+                "reference": "7fcd92fcfbabacc5cffa156de2caea5a6ca32989",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "bin": [
+                "teamcity-clover"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Hunziker",
+                    "email": "info@michelhunziker.com",
+                    "homepage": "https://www.michelhunziker.com"
+                }
+            ],
+            "description": "Parse the clover.xml and report the code coverage and CRAP indices to TeamCity",
+            "keywords": [
+                "clover",
+                "clover.xml",
+                "code coverage",
+                "coverage",
+                "phpunit",
+                "teamcity"
+            ],
+            "time": "2018-07-22T13:51:14+00:00"
         },
         {
             "name": "myclabs/deep-copy",

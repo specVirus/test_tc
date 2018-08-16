@@ -34,7 +34,8 @@
         "squizlabs/php_codesniffer": "3.*",
         "zircote/swagger-php": "^2.0",
         "phpmetrics/phpmetrics": "^2.2",
-        "codeception/aspect-mock": "^2.1"
+        "codeception/aspect-mock": "^2.1",
+        "micheh/teamcity-clover": "~0.6"
     },
     "config": {
         "process-timeout": 1800,
