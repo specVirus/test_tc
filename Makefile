@@ -17,7 +17,7 @@ docker-stack-deploy-teamcity:
 	sudo docker-compose -f stack.teamcity.yml up -d
 
 docker-terminal:
-	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_php_1" --format "{{.Names}}") /bin/bash
+	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_phpfpm_1" --format "{{.Names}}") /bin/bash
 
 docker-terminal-redis:
 	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_redis_1" --format "{{.Names}}") /bin/bash
