@@ -17,13 +17,13 @@ docker-stack-deploy-teamcity:
 	sudo docker-compose -f stack.teamcity.yml up -d
 
 docker-terminal:
-	sudo docker exec -ti $(shell sudo docker ps -f "name=yii2iwaytemplate_php_1" --format "{{.Names}}") /bin/bash
+	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_php_1" --format "{{.Names}}") /bin/bash
 
 docker-terminal-redis:
-	sudo docker exec -ti $(shell sudo docker ps -f "name=yii2iwaytemplate_redis_1" --format "{{.Names}}") /bin/bash
+	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_redis_1" --format "{{.Names}}") /bin/bash
 
 docker-terminal-rabbit:
-	sudo docker exec -ti $(shell sudo docker ps -f "name=yii2iwaytemplate_rabbitmq_1" --format "{{.Names}}") /bin/bash
+	sudo docker exec -ti $(shell sudo docker ps -f "name=testtc_rabbitmq_1" --format "{{.Names}}") /bin/bash
 
 docker-stack-rm:
 	sudo docker-compose -f stack.example.yml down
@@ -54,7 +54,7 @@ docker-stack-restart:
 	make docker-stack-deploy
 
 docker-status:
-	sudo docker ps -f "name=yii2iwaytemplate_"
+	sudo docker ps -f "name=testtc_"
 
 docker-image-build:
 	sudo docker build -t iwaydev/yii2-iway-template-php-fpm ./docker/builds/php
