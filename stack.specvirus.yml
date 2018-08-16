@@ -4,7 +4,7 @@ services:
 
 ## PostreSQL #######################################################################################
   postgres:
-    image: iwaydev/yii2-iway-template-postgres:latest
+    image: iwaydev/base-postgres
     volumes:
       - ./docker/db:/var/lib/postgresql/data
       - ./docker/init:/docker-entrypoint-initdb.d
