@@ -23,7 +23,7 @@ services:
             - site.yii2-iway-template.local
     ports:
       - 88:80
-      - 445:443
+      - 448:443
     volumes:
       # Конфиг
       - ./docker/conf/nginx.conf:/etc/nginx/conf.d/nginx.conf
