@@ -51,8 +51,7 @@ services:
       XDEBUG_CONFIG: "remote_host=192.168.1.105"
     volumes:
       # Файлы
-      - ./:/var/www/yii2-iway-template
-      - ./api:/var/www/yii2-iway-template/api
+      - ./data:/var/www/yii2-iway-template
       - ./docker/logs:/var/log/xdebug
       # Конфиг
       - ./docker/conf/php.ini:/usr/local/etc/php/php.ini
