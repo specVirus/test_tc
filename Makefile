@@ -167,7 +167,7 @@ codecept-run-coverage-xml:
 
 codecept-run-coverage-teamcity:
 	$(CURDIR)/vendor/bin/codecept run --no-exit --coverage-html --no-interaction --no-ansi --report -o "reporters: report: PHPUnit\Util\Log\TeamCity"
-	$(CURDIR)/vendor/micheh/teamcity-clover/teamcity-clover $(CURDIR)/build/artifacts/coverage.xml
+	$(CURDIR)/vendor/micheh/teamcity-clover/teamcity-clover $(CURDIR)/build/artifacts/coverage/coverage.xml
 
 build-local: yii-init-dev composer-install-dev yii-rbac-init yii-migrate yii-test-migrate yii-cache-flush-all rm-assets swagger phpcs phpmd phpmetrics
 build-dev: git-reset git-pull-develop yii-init-dev yii-rbac-init composer-install-dev yii-migrate yii-test-migrate yii-cache-flush-all rm-assets swagger phpcs phpmd phpmetrics codecept-build codecept-run
