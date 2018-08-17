@@ -158,13 +158,11 @@ codecept-build:
 codecept-run:
 	$(CURDIR)/vendor/bin/codecept run
 
-#Запуск тестов с проверкой покрытия кода тестами и формированием отчета
+#Запуск тестов с проверкой покрытия кода тестами и формированием отчета html
 codecept-run-coverage-html:
 	$(CURDIR)/vendor/bin/codecept run --coverage-html
 
-codecept-run-coverage-xml:
-	$(CURDIR)/vendor/bin/codecept run --coverage-xml
-
+#Запуск тестов с проверкой покрытия кода с адаптированным выводом для TeamCity
 codecept-run-coverage-teamcity:
 	$(CURDIR)/vendor/bin/codecept run --no-exit --coverage-html --no-interaction --no-ansi --report -o "reporters: report: PHPUnit\Util\Log\TeamCity"
 	$(CURDIR)/vendor/micheh/teamcity-clover/teamcity-clover $(CURDIR)/build/artifacts/coverage/coverage.xml
@@ -173,3 +171,6 @@ build-local: yii-init-dev composer-install-dev yii-rbac-init yii-migrate yii-tes
 build-dev: git-reset git-pull-develop yii-init-dev yii-rbac-init composer-install-dev yii-migrate yii-test-migrate yii-cache-flush-all rm-assets swagger phpcs phpmd phpmetrics codecept-build codecept-run
 build-prod: git-reset git-pull-master yii-init-dev yii-rbac-init composer-install yii-migrate yii-cache-flush-all rm-assets
 test: yii-test-migrate codecept-build codecept-run
+
+#Запуск тестов с адаптированным выводом для TeamCity
+test-teamcity: yii-test-migrate codecept-build codecept-run-coverage-teamcity phpmd-xml phpcs-xml
